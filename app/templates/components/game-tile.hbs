@@ -1,0 +1,7 @@
+<li>{{#if tile.isImageShowing}}
+    <p><img src={{tile.image}} {{action 'hideTile' tile}}></p>
+    <p>Hello!</p>
+    {{else}}
+    <p><img src="http://www.fao.com/cms_widgets/18/72/1872566_assets/question.gif" {{action 'showTile' tile}}></p>
+    {{/if}}
+</li>

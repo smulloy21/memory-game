@@ -1,0 +1,19 @@
+<h1>Memory Game</h1>
+
+<div id="game-board">
+  <ul>
+  {{#each model.tiles as |tile|}}
+    {{game-tile tile=tile showTile="showTile" hideTile="hideTile"}}
+  {{/each}}
+  </ul>
+</div>
+
+<p>
+  There are {{model.tiles.length}} tiles.
+</p>
+
+<p>
+  There are {{model.tilesShowing.length}} image(s) showing.
+</p>
+
+<a href="/"><button name="new-game" class="btn btn-primary">New Game</button></a>

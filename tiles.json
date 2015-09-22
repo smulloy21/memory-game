@@ -1,0 +1,10 @@
+{ "tiles": [{
+    "id": 1,
+    "isImageShowing": false,
+    "image": "http://images.clipartpanda.com/squirrel-clip-art-9T4ryKETE.jpeg"
+  }, {
+    "id": 2,
+    "isImageShowing": false,
+    "image": "http://images.clipartpanda.com/squirrel-clip-art-9T4ryKETE.jpeg"
+  }]
+}
