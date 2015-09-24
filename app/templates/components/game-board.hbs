@@ -1,0 +1,7 @@
+{{#each shuffledTiles as |tile|}}
+  {{#if tile.isShowing}}
+    <img src={{tile.image}} {{action 'hideTile' tile}}/>
+  {{else}}
+    <img src='http://www.owlsdaughter.com/wp-content/uploads/2011/06/Mystery-card.jpg' {{action 'showTile' tile}}/>
+  {{/if}}
+{{/each}}
